@@ -8,7 +8,7 @@
 #import "JPEngine.h"
 #import <objc/runtime.h>
 #import <objc/message.h>
-
+#import "JSPatch_JS.h"
 #if TARGET_OS_IPHONE
 #import <UIKit/UIApplication.h>
 #endif
@@ -199,10 +199,7 @@ static NSMutableDictionary *_protocolTypeEncodeDict;
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(handleMemoryWarning) name:UIApplicationDidReceiveMemoryWarningNotification object:nil];
 #endif
     
-    NSString *path = [[NSBundle bundleForClass:[self class]] pathForResource:@"JSPatch" ofType:@"js"];
-    NSAssert(path, @"can't find JSPatch.js");
-    NSString *jsCore = [[NSString alloc] initWithData:[[NSFileManager defaultManager] contentsAtPath:path] encoding:NSUTF8StringEncoding];
-    
+    NSString *jsCore = JSPatch_js();
     if ([_context respondsToSelector:@selector(evaluateScript:withSourceURL:)]) {
         [_context evaluateScript:jsCore withSourceURL:[NSURL URLWithString:@"JSPatch.js"]];
     } else {

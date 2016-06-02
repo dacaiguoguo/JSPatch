@@ -29,7 +29,6 @@
 		3613C3841C6329F300E915CB /* JPUIImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 3613C35C1C6329F300E915CB /* JPUIImage.m */; };
 		3613C3851C6329F300E915CB /* JPUIKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 3613C35E1C6329F300E915CB /* JPUIKit.m */; };
 		3613C3861C6329F300E915CB /* JPEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 3613C3611C6329F300E915CB /* JPEngine.m */; };
-		3613C3871C6329F300E915CB /* JSPatch.js in Resources */ = {isa = PBXBuildFile; fileRef = 3613C3621C6329F300E915CB /* JSPatch.js */; };
 		3613C3881C6329F300E915CB /* JPLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 3613C3651C6329F300E915CB /* JPLoader.m */; };
 		3613C3891C6329F300E915CB /* ioapi.c in Sources */ = {isa = PBXBuildFile; fileRef = 3613C3691C6329F300E915CB /* ioapi.c */; };
 		3613C38A1C6329F300E915CB /* mztools.c in Sources */ = {isa = PBXBuildFile; fileRef = 3613C36B1C6329F300E915CB /* mztools.c */; };
@@ -39,12 +38,14 @@
 		3613C38E1C6329F300E915CB /* ZipArchive.m in Sources */ = {isa = PBXBuildFile; fileRef = 3613C3741C6329F300E915CB /* ZipArchive.m */; };
 		3613C38F1C6329F300E915CB /* packer.php in Resources */ = {isa = PBXBuildFile; fileRef = 3613C3761C6329F300E915CB /* packer.php */; };
 		3613C3AF1C6346F500E915CB /* JPCleaner.m in Sources */ = {isa = PBXBuildFile; fileRef = 3613C3AE1C6346F500E915CB /* JPCleaner.m */; };
-		36F0DCC61BFAF41C0090EA4A /* libz.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 36F0DCC51BFAF41C0090EA4A /* libz.1.dylib */; };
 		6C6CAC741C5F0BCA00444348 /* superTest.js in Resources */ = {isa = PBXBuildFile; fileRef = 6C6CAC721C5F0BCA00444348 /* superTest.js */; };
 		6C6CAC751C5F0BCA00444348 /* SuperTestObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C6CAC731C5F0BCA00444348 /* SuperTestObject.m */; };
 		6C72B7961C352BA80086C98D /* newProtocolTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C72B7951C352BA80086C98D /* newProtocolTest.m */; };
 		6C9C0EE41C25A7C700FCAAC5 /* newProtocolTest.js in Resources */ = {isa = PBXBuildFile; fileRef = 6C9C0EE31C25A7C700FCAAC5 /* newProtocolTest.js */; };
 		6C9C0EE51C25A7DA00FCAAC5 /* newProtocolTest.js in Resources */ = {isa = PBXBuildFile; fileRef = 6C9C0EE31C25A7C700FCAAC5 /* newProtocolTest.js */; };
+		9DA433261CFFEB8000D5E383 /* JSPatch_JS.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DA433251CFFEB8000D5E383 /* JSPatch_JS.m */; };
+		9DA4332A1CFFF8F800D5E383 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DA433291CFFF8F800D5E383 /* Default-568h@2x.png */; };
+		9DA4332C1CFFF90F00D5E383 /* libz.1.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DA4332B1CFFF90F00D5E383 /* libz.1.tbd */; };
 		DE58B6481B7C312800F64C63 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE58B6471B7C312800F64C63 /* JavaScriptCore.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		DE6FFF031B42B01C0005EE83 /* protocolTest.js in Resources */ = {isa = PBXBuildFile; fileRef = DE6FFF021B42B01C0005EE83 /* protocolTest.js */; };
 		DE6FFF051B42C25D0005EE83 /* protocolTest.js in Resources */ = {isa = PBXBuildFile; fileRef = DE6FFF021B42B01C0005EE83 /* protocolTest.js */; };
@@ -108,7 +109,6 @@
 		3613C35E1C6329F300E915CB /* JPUIKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPUIKit.m; sourceTree = "<group>"; };
 		3613C3601C6329F300E915CB /* JPEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPEngine.h; sourceTree = "<group>"; };
 		3613C3611C6329F300E915CB /* JPEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPEngine.m; sourceTree = "<group>"; };
-		3613C3621C6329F300E915CB /* JSPatch.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = JSPatch.js; sourceTree = "<group>"; };
 		3613C3641C6329F300E915CB /* JPLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPLoader.h; sourceTree = "<group>"; };
 		3613C3651C6329F300E915CB /* JPLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPLoader.m; sourceTree = "<group>"; };
 		3613C3681C6329F300E915CB /* crypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crypt.h; sourceTree = "<group>"; };
@@ -127,13 +127,16 @@
 		3613C3761C6329F300E915CB /* packer.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = packer.php; sourceTree = "<group>"; };
 		3613C3AD1C6346F500E915CB /* JPCleaner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPCleaner.h; sourceTree = "<group>"; };
 		3613C3AE1C6346F500E915CB /* JPCleaner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPCleaner.m; sourceTree = "<group>"; };
-		36F0DCC51BFAF41C0090EA4A /* libz.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.dylib; path = ../../../../../../usr/lib/libz.1.dylib; sourceTree = "<group>"; };
 		6C6CAC711C5F0BCA00444348 /* SuperTestObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuperTestObject.h; sourceTree = "<group>"; };
 		6C6CAC721C5F0BCA00444348 /* superTest.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = superTest.js; sourceTree = "<group>"; };
 		6C6CAC731C5F0BCA00444348 /* SuperTestObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuperTestObject.m; sourceTree = "<group>"; };
 		6C72B7941C352BA80086C98D /* newProtocolTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = newProtocolTest.h; sourceTree = "<group>"; };
 		6C72B7951C352BA80086C98D /* newProtocolTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = newProtocolTest.m; sourceTree = "<group>"; };
 		6C9C0EE31C25A7C700FCAAC5 /* newProtocolTest.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = newProtocolTest.js; sourceTree = "<group>"; };
+		9DA433241CFFEB8000D5E383 /* JSPatch_JS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSPatch_JS.h; sourceTree = "<group>"; };
+		9DA433251CFFEB8000D5E383 /* JSPatch_JS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSPatch_JS.m; sourceTree = "<group>"; };
+		9DA433291CFFF8F800D5E383 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		9DA4332B1CFFF90F00D5E383 /* libz.1.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.1.tbd; path = usr/lib/libz.1.tbd; sourceTree = SDKROOT; };
 		DE58B6471B7C312800F64C63 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		DE6FFF021B42B01C0005EE83 /* protocolTest.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = protocolTest.js; sourceTree = "<group>"; };
 		DE94AE0B1AF246BF00E461D4 /* JSPatchDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JSPatchDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -155,7 +158,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				36F0DCC61BFAF41C0090EA4A /* libz.1.dylib in Frameworks */,
+				9DA4332C1CFFF90F00D5E383 /* libz.1.tbd in Frameworks */,
 				DE58B6481B7C312800F64C63 /* JavaScriptCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,7 +260,8 @@
 			children = (
 				3613C3601C6329F300E915CB /* JPEngine.h */,
 				3613C3611C6329F300E915CB /* JPEngine.m */,
-				3613C3621C6329F300E915CB /* JSPatch.js */,
+				9DA433241CFFEB8000D5E383 /* JSPatch_JS.h */,
+				9DA433251CFFEB8000D5E383 /* JSPatch_JS.m */,
 			);
 			name = JSPatch;
 			path = ../../../JSPatch;
@@ -314,7 +318,8 @@
 		DE94AE021AF246BE00E461D4 = {
 			isa = PBXGroup;
 			children = (
-				36F0DCC51BFAF41C0090EA4A /* libz.1.dylib */,
+				9DA4332B1CFFF90F00D5E383 /* libz.1.tbd */,
+				9DA433291CFFF8F800D5E383 /* Default-568h@2x.png */,
 				DE58B6471B7C312800F64C63 /* JavaScriptCore.framework */,
 				2D5D89161B0B8BFF009382EC /* JSPatchDemo */,
 				DE94AE271AF246C000E461D4 /* JSPatchTests */,
@@ -408,7 +413,7 @@
 		DE94AE031AF246BF00E461D4 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0620;
+				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = bang;
 				TargetAttributes = {
 					DE94AE0A1AF246BF00E461D4 = {
@@ -445,10 +450,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				6C9C0EE51C25A7DA00FCAAC5 /* newProtocolTest.js in Resources */,
-				3613C3871C6329F300E915CB /* JSPatch.js in Resources */,
 				3613C38F1C6329F300E915CB /* packer.php in Resources */,
 				DE6FFF051B42C25D0005EE83 /* protocolTest.js in Resources */,
 				2D6D12FD1B0B8CF20095A435 /* Images.xcassets in Resources */,
+				9DA4332A1CFFF8F800D5E383 /* Default-568h@2x.png in Resources */,
 				2D6D13011B0B8CFF0095A435 /* demo.js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -485,6 +490,7 @@
 				3613C37E1C6329F300E915CB /* JPCoreGraphics.m in Sources */,
 				3613C38D1C6329F300E915CB /* RSA.m in Sources */,
 				3613C3791C6329F300E915CB /* JPCGContext.m in Sources */,
+				9DA433261CFFEB8000D5E383 /* JSPatch_JS.m in Sources */,
 				3613C3891C6329F300E915CB /* ioapi.c in Sources */,
 				3613C3801C6329F300E915CB /* JPMemory.m in Sources */,
 				2D5D89251B0B8BFF009382EC /* JPViewController.m in Sources */,
@@ -547,6 +553,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -614,6 +621,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_GENERATE_MAP_FILE = YES;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.cnbang.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = JSPatchDemo;
 			};
 			name = Debug;
@@ -628,6 +636,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_GENERATE_MAP_FILE = YES;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.cnbang.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = JSPatchDemo;
 			};
 			name = Release;
@@ -646,6 +655,7 @@
 				);
 				INFOPLIST_FILE = JSPatchTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.cnbang.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = JSPatchDemoTests;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JSPatchDemo.app/JSPatchDemo";
 			};
@@ -661,6 +671,7 @@
 				);
 				INFOPLIST_FILE = JSPatchTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.cnbang.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = JSPatchDemoTests;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JSPatchDemo.app/JSPatchDemo";
 			};
